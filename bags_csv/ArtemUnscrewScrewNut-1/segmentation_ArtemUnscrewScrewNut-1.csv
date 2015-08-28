@@ -1,0 +1,17 @@
+ee_point_based_segmentation:
+unscrew start: 50
+unscrew grab: 104
+unscrew done:184
+screw start:184
+screw release:345
+screw done: 384
+
+nut_point_based_segmentation:
+grabbed_unscrew: 114
+end of constrained unscrew: 137
+unscrewed: 192
+constrained screw start: 270
+screwed: 340
+
+
+42,53,136,280,295,347

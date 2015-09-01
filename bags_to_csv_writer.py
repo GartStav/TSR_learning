@@ -16,12 +16,6 @@ import csv
 if __name__ == '__main__':
     rospy.init_node('tf_saver')
 
-    #bag_filename = "../../../bags/actions/ArtemUnscrewScrewNut-1.bag"
-
-    # filename_hand = "bags_csv/ArtemUnscrewScrewNut-1/hand_ArtemUnscrewScrewNut-1_parallel.csv"
-    # filename_nut = "bags_csv/ArtemUnscrewScrewNut-1/nut_ArtemUnscrewScrewNut-1_parallel.csv"
-
-    #bag_name  = "ScrewUnscrewWithoutHandArtem8"
     bag_name  = "UnhangHangWithoutHandArtem3"
 
     filename_hand_r = "bags_csv/" + bag_name + "/hand_r_" + bag_name + ".csv"

@@ -1,0 +1,191 @@
+<Environment>
+
+  <Robot name="Pr2" file="robots/pr2-beta-static.zae">
+    <translation>0 0 0</translation>
+  </Robot>
+
+  <!-- <Robot name="Wheel" file="../models/driving_wheel_tiny.robot.xml"> -->
+  <!--   <translation>0 0 0</translation> -->
+  <!-- </Robot> -->
+
+  <KinBody name="floor">
+    <Body type="static">
+      <Translation>2.0 0.4 -0.03</Translation>
+      <Geom type="box">
+        <extents>1 1 0.005</extents>
+        <diffuseColor>0.93 0.90 0.66</diffuseColor>
+        <ambientColor>0.6 0.6 0.6</ambientColor>
+      </Geom>
+    </Body>
+  </KinBody>
+
+  <!--<KinBody name="stand">
+    <Body type="static">
+      <Translation>0 0 0.65</Translation>
+      <RotationAxis>1 0 0 90</RotationAxis>
+      <Geom type="cylinder">
+        <radius>0.25</radius>
+        <height>1.40</height>
+        <diffuseColor>0.4 0.4 0.4</diffuseColor>
+        <ambientColor>0.4 0.4 0.4</ambientColor>
+      </Geom>
+    </Body>
+  </KinBody>-->
+
+<!--  <KinBody name="stud1">-->
+<!--    <Body type="static">-->
+<!--      <Translation>1.905 1.1540 0.7553</Translation>-->
+<!--      <RotationAxis>0 0 1 0.0</RotationAxis>-->
+<!--      <Geom type="cylinder">-->
+<!--        <radius>0.003</radius>-->
+<!--        <height>0.04</height>-->
+<!--        <diffuseColor>0.4 0.4 0.4</diffuseColor>-->
+<!--        <ambientColor>0.4 0.4 0.4</ambientColor>-->
+<!--      </Geom>-->
+<!--    </Body>-->
+<!--  </KinBody>-->
+
+<!--  <KinBody name="stud2">-->
+<!--    <Body type="static">-->
+<!--      <Translation>2.01489 1.1567 0.7654</Translation>-->
+<!--      <RotationAxis>0 0 1 0.0</RotationAxis>-->
+<!--      <Geom type="cylinder">-->
+<!--        <radius>0.003</radius>-->
+<!--        <height>0.04</height>-->
+<!--        <diffuseColor>0.4 0.4 0.4</diffuseColor>-->
+<!--        <ambientColor>0.4 0.4 0.4</ambientColor>-->
+<!--      </Geom>-->
+<!--    </Body>-->
+<!--  </KinBody>-->
+
+<!--  <KinBody name="stud3">-->
+<!--    <Body type="static">-->
+<!--      <Translation>1.9514 1.1567 0.8552</Translation>-->
+<!--      <RotationAxis>0 0 1 0.0</RotationAxis>-->
+<!--      <Geom type="cylinder">-->
+<!--        <radius>0.003</radius>-->
+<!--        <height>0.04</height>-->
+<!--        <diffuseColor>0.4 0.4 0.4</diffuseColor>-->
+<!--        <ambientColor>0.4 0.4 0.4</ambientColor>-->
+<!--      </Geom>-->
+<!--    </Body>-->
+<!--  </KinBody>-->
+
+ <!-- <KinBody name="table" file="../models/table.kinbody.xml"> -->
+ <!--   <RotationMat>-1 0 0 0 -1 0 0 0 1</RotationMat> -->
+ <!--   <Translation>1.5   -1   0.5</Translation> -->
+ <!-- </KinBody>  -->
+
+<!-- <KinBody name="shelfFront" file="../models/shelf.kinbody.xml">-->
+<!--   <RotationMat>-1 0 0 0 -1 0 0 0 1</RotationMat>-->
+<!--   <Translation>1.5   -1   0.5</Translation>-->
+<!-- </KinBody> -->
+
+<!-- <KinBody name="shelfBack" file="../models/shelf.kinbody.xml">-->
+<!--   <RotationMat>-1 0 0 0 -1 0 0 0 1</RotationMat>-->
+<!--   <Translation>-1.5   -1   0.5</Translation>-->
+<!-- </KinBody>-->
+
+ <!--<KinBody name="car" file="../models/car.kinbody.xml">
+   <Translation>-1.10 0.32 1.22</Translation>
+   <RotationAxis>0 0 1 -90</RotationAxis>
+ </KinBody>-->
+
+ <!-- <KinBody name="stand" file="../models/stand.kinbody.xml"> -->
+ <!--   <RotationMat>-1 0 0 0 -1 0 0 0 1</RotationMat> -->
+ <!--   <Translation>1.5   -1   0.5</Translation> -->
+ <!-- </KinBody> -->
+
+
+
+    <!--<KinBody name="wheel_RR" file="../models/wheel3.kinbody.xml">
+       <RotationAxis>0 1 0 180</RotationAxis>
+       <Translation>-1.0  2.0 1.5</Translation>
+    </KinBody> -->
+<!--    <KinBody name="wheel_LF" file="../models/wheel1.kinbody.xml">-->
+<!--       <RotationAxis>0 1 0 180</RotationAxis>-->
+<!--       <Translation>1.0 -2.0 1.5</Translation>-->
+<!--    </KinBody>-->
+    <!--<KinBody name="wheel_RF" file="../models/wheel4.kinbody.xml">
+       <RotationAxis>0 1 0 180</RotationAxis>
+       <Translation>-1.0 -2.0  1.5</Translation>
+    </KinBody>
+    <KinBody name="wheel_LR" file="../models/wheel2.kinbody.xml">
+       <RotationAxis>0 1 0 180</RotationAxis>
+       <Translation>1.0  2.0 1.5</Translation>
+    </KinBody>-->
+
+
+
+    <KinBody name="hub_LF" file="../models/wheel_rotor.kinbody.xml">
+       <RotationAxis>0 0 1 180</RotationAxis>
+       <Translation>0.6 -0.2 0.8</Translation>
+    </KinBody>
+   <!--<KinBody name="hub_RF" file="../models/wheel_rotor.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>-1.0 -2.0  1.5</Translation>
+    </KinBody>
+   <KinBody name="hub_LR" file="../models/wheel_rotor.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>1.0  2.0 1.5</Translation>
+    </KinBody>
+   <KinBody name="hub_RR" file="../models/wheel_rotor.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>-1.0  2.0 1.5</Translation>
+    </KinBody> -->
+
+
+
+   <KinBody name="nut_LF_1" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 0 1 90</RotationAxis>
+       <Translation>0.55 -0.2  0.862</Translation>
+    </KinBody>
+<!--    <KinBody name="nut_LF_2" file="../models/nut.kinbody.xml">-->
+<!--       <RotationAxis>0 1 0 0</RotationAxis>-->
+<!--       <Translation>1.0 -2.0 1.5</Translation>-->
+<!--    </KinBody>-->
+<!--    <KinBody name="nut_LF_3" file="../models/nut.kinbody.xml">-->
+<!--       <RotationMat>-1 0 0 0 -1 0 0 0 1</RotationMat>-->
+<!--       <Translation>1.0 -2.0 1.5</Translation>-->
+<!--    </KinBody> -->-->
+
+   <!--<KinBody name="nut_RF_1" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>-1.0 -2.0  1.5</Translation>
+    </KinBody>
+    <KinBody name="nut_RF_2" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>-1.0 -2.0  1.5</Translation>
+    </KinBody>
+    <KinBody name="nut_RF_3" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>-1.0 -2.0  1.5</Translation>
+    </KinBody>
+
+   <KinBody name="nut_LR_1" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>1.0  2.0 1.5</Translation>
+    </KinBody>
+    <KinBody name="nut_LR_2" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>1.0  2.0 1.5</Translation>
+    </KinBody>
+    <KinBody name="nut_LR_3" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>1.0  2.0 1.5</Translation>
+    </KinBody>
+
+   <KinBody name="nut_RR_1" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>-1.0  2.0 1.5</Translation>
+    </KinBody>
+    <KinBody name="nut_RR_2" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>-1.0  2.0 1.5</Translation>
+    </KinBody>
+    <KinBody name="nut_RR_3" file="../models/nut.kinbody.xml">
+       <RotationAxis>0 1 0 0</RotationAxis>
+       <Translation>-1.0  2.0 1.5</Translation>
+    </KinBody>-->
+
+</Environment>

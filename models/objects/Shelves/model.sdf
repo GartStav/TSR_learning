@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<sdf version="1.3">
+
+  <model name="Shelves">
+    <pose> 0.0 0.0 0.0  0.0 0.0 0.0 </pose>
+    <static>true</static>
+    
+    <link name="shelf_link">
+
+      <visual name="visual">
+        <geometry>
+          <mesh><uri>model://Shelves/meshes/shelf_simple.dae</uri><scale>0.6 0.6 0.6</scale></mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh><uri>model://Shelves/meshes/shelf_simple.dae</uri><scale>0.6 0.6 0.6</scale></mesh>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+
+</sdf>

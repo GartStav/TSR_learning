@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<sdf version="1.3">
+
+
+
+  <model name="Stand">
+    <pose>0 0 0  0.0 0.0 0.0 </pose>
+    <static>true</static>
+    
+    <link name="body">
+
+      <visual name="visual">
+        <geometry>
+          <mesh><uri>model://Stand/meshes/stand.dae</uri></mesh>
+        </geometry>
+        <material>
+          <emissive> 1 1 1 1 </emissive>
+        </material>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh><uri>model://Stand/meshes/stand.dae</uri></mesh>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

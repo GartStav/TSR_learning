@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<sdf version="1.3">
+
+  <model name="Table">
+    <pose> 0.0 0.0 0.0  0.0 0.0 0.0 </pose>
+    <static>true</static>
+    
+    <link name="rotor">
+
+      <visual name="visual">
+        <geometry>
+          <mesh><uri>model://Table/meshes/table.dae</uri><scale>1.0 1.0 1.0</scale></mesh>
+        </geometry>
+        <material>
+          <emissive> 1 1 1 1 </emissive>
+        </material>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh><uri>model://Table/meshes/table.dae</uri><scale>1.0 1.0 1.0</scale></mesh>
+        </geometry>
+      </collision>
+
+
+
+    </link>
+  </model>
+
+</sdf>

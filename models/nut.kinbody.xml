@@ -1,0 +1,15 @@
+<KinBody name="nut">
+
+  <Body name="nut">
+    <Geom type="trimesh">
+      <RotationAxis>1 0 0 90</RotationAxis>
+      <!-- nuts are slightly bigger-->
+      <!-- 0.7 instead of 0.5 inorder to not collide with pegs -->
+      <Data>objects/Nut/meshes/nut.dae 0.7</Data>
+      <Render>objects/Nut/meshes/nut.dae  0.7</Render>
+      <diffuseColor>1 0.6 0</diffuseColor>
+      <ambientColor>0.6 0.6 0.6</ambientColor>
+    </Geom>
+  </Body>
+
+</KinBody>

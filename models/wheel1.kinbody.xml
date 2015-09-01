@@ -1,0 +1,22 @@
+<KinBody name="wheel">
+
+  <Body name="wheel">
+    <Geom type="trimesh">
+      <Translation>0 0 0</Translation>
+      <RotationAxis>1 0 0 90</RotationAxis>
+
+      <!--<Data>../../objects/heres_how_models/Planning/Wheel_1.25/meshes/wheel_1.25.dae 1.0</Data>
+      <Render>../../objects/heres_how_models/Planning/Wheel_1.25/meshes/wheel_1.25.dae  1.0</Render> -->
+
+<!--      <Data>../../objects/heres_how_models/Planning/Wheel_1.0/meshes/wheel_1.0.dae 1.0</Data>-->
+<!--      <Render>../../objects/heres_how_models/Planning/Wheel_1.0/meshes/wheel_1.0.dae  1.0</Render> -->-->
+
+      <Data>objects/Planning/Wheel_Triangle/meshes/wheel_planning_1.dae 1.0</Data>
+      <Render>.objects/Planning/Wheel_Triangle/meshes/wheel_planning_1.dae  1.0</Render> 
+
+      <diffuseColor>1 0 0</diffuseColor>
+      <ambientColor>1 0 0</ambientColor>
+    </Geom>
+  </Body>
+
+</KinBody>

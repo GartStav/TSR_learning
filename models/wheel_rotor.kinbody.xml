@@ -1,0 +1,16 @@
+<KinBody name="rotor">
+
+  <Body name="rotor">
+    <Geom type="trimesh">
+      <RotationAxis>1 0 0 90</RotationAxis>
+
+      <Data>objects/Wheel_Rotor/meshes/wheel_rotor.dae 0.97</Data>
+      <Render>objects/Wheel_Rotor/meshes/wheel_rotor.dae  0.97</Render>-->
+
+<!--      <Data>../../objects/heres_how_models/Planning/Rotor_Triangle/meshes/wheel_rotor.dae 1.0</Data>-->
+<!--      <Render>../../objects/heres_how_models/Planning/Rotor_Triangle/meshes/wheel_rotor.dae  1.0</Render>-->
+
+    </Geom>
+  </Body>
+
+</KinBody>

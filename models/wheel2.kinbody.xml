@@ -1,0 +1,14 @@
+<KinBody name="wheel">
+
+  <Body name="wheel">
+    <Geom type="trimesh">
+      <Translation>0 0 0</Translation>
+      <RotationAxis>1 0 0 90</RotationAxis>
+      <Data>../../simulation/heres_how_models/Wheel_LF/meshes/wheel_strech.dae 0.5</Data>
+      <Render>../../simulation/heres_how_models/Wheel_LF/meshes/wheel_strech.dae  0.5</Render> 
+      <diffuseColor>0 1 0</diffuseColor>
+      <ambientColor>0 1 0</ambientColor>
+    </Geom>
+  </Body>
+
+</KinBody>
